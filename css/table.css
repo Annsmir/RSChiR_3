@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    background: url("../css/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+#wblock {
+    background-color: black;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+th {
+    border: 1px solid #e07676;
+    padding: 10px
+}
+
+td {
+    border: 1px solid white;
+    border-top: none;
+    padding: 10px
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 100px;
+}

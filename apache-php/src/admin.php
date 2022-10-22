@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Админ панель</title>
-    <link rel="stylesheet" href="../css/table.css" type="text/css" />
+    <link rel="stylesheet" href="css/table.css" type="text/css" />
 </head>
 
 <body>
@@ -19,7 +19,7 @@
             <tr>
                 <th>Номер</th>
                 <th>Логин</th>
-                <th>Пароль</th>
+                <th>Зашифрованный пароль</th>
             </tr>
             <?php foreach ($users as $user) {
                 echo "
@@ -31,7 +31,7 @@
             ";
             }; ?>
         </table>
-        <br><a href="../dynamic/about.php">На главную</a>
+        <br><a href="index.html">На главную</a>
         <div>
             <?php $mysqli->close(); ?>
 </body>

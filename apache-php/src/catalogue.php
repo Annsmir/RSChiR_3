@@ -33,7 +33,7 @@
             }
             else echo ''; ?>
         </table>
-        <br><a href="../dynamic/about.php">На главную</a>
+        <br><a href="index.html">На главную</a>
     </div>
     <?php $mysqli->close(); ?>
 </body>
